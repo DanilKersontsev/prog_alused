@@ -5,4 +5,6 @@ ule_kiirus = tegel_kiirus - lubat_kiirus
 trahv = ule_kiirus *3
 trahv_min = min(190, trahv)
 print(nimi + ", kiirus ületamise eest on teie trahv " + str(trahv_min) + " eurot.")
+
+
                      
