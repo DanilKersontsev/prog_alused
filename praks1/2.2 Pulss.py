@@ -1,6 +1,6 @@
 vanus = int(input("Sisestage enda vanus: "))
 sugu = input("Sisestage enda sugu: ").upper()
-treeningtüüp = int(input("Sisestage treeningu tüüp: "))
+treeningtüüp = int(input("Sisestage treeningu tüüp(1,2,3): "))
 
 if (sugu == "M"):
     tervisetreening = 220 - vanus
