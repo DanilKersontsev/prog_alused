@@ -1,10 +1,10 @@
 from random import randint
 
-istekoha_valik = str(input("Kas soovite istekohta ise valida (ise) või loosida (loos)?  "))
+istekoha_valik = input("Kas soovite istekohta ise valida (ise) või loosida (loos)?  ")
 
 
 if istekoha_valik == "ise":
-    istekoha_valik = str(input("Kas soovite istuda akna ääres (aken) või mitte (muu)?  "))
+    istekoha_valik = input("Kas soovite istuda akna ääres (aken) või mitte (muu)?  ")
 else:
     if randint(1, 3) == 1:
         print("Istekoht loositi. Aknakoht")
