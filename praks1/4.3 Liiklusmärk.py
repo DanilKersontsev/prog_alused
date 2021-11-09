@@ -1,3 +1,8 @@
 from tkinter import *
-create_oval(x0, y0, x1, y1)
-tahvel.creative_oval(10,10,100,100, fill="red", outline="black")
+raam = Tk()
+raam.title("Liiklusmärk")
+tahvel = Canvas(raam,width=600, height =600)
+tahvel.create_oval(10,10,600,600, fill="red", outline="black")
+tahvel.create_rectangle(50,360,560,240, fill="white", outline="white")
+tahvel.pack()
+raam.mainloop()
