@@ -14,6 +14,6 @@ for element_sisse in sisse:
     
 sisse.close()
 välja.close()
-print(ads)
 
+print(ads)
 print("Suurim positiivne rändesaldo oli", ads.index(max(ads))+1,"." , "aastal.",)
