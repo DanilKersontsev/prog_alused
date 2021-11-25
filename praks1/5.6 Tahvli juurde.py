@@ -1,23 +1,20 @@
 failinimi = input("Sisestage failinimi: ")
 fail = open(failinimi, encoding="UTF-8")
 from datetime import *
-kuupäev = int(datetime.now().day)
-i = 0
+kuupäev = datetime.now().day
+i = 1
 for rida in fail:
-    if rida == kuupäev:
-        print("Vastama tuleb: ", rida )
-    else:
+    if i == kuupäev:
         print("Vastama tuleb: ", rida)
+        break
+    else:
         i += 1
-    break
+    
         
-    
+        
 
 
     
-    
-    
-    
-    
+
 fail.close()
 
